@@ -1,0 +1,61 @@
+:root{
+    --black: #212529;
+    --white: #fff;
+    --pink: #e83e8c;
+    --info: #17a2b8;
+    --grey:#707070;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--info);
+}
+.nav-and-foot{
+    background-color: var(--pink);
+}
+.semi-foot{
+    background-color: var(--info);
+    align-items: middle;
+    margin-top: 5rem;
+}
+.semi-foot-nd{
+    background-color: var(--pink);
+}
+.semi-foot-nd img{
+    max-height: 7rem;
+}
+.semi-foot__text{
+    padding-right: 4rem;
+}
+h1{
+    font-size: 2rem;
+}
+.text-grey{
+    color: var(--grey);
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+.logo img{
+    max-height: 4rem;
+}
+.hero{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.col{
+    padding-bottom: 5rem;
+}
+.mini-text{
+    font-size: 0.75rem;
+}
+.no-background{
+    background-color: var(--white);
+}
+@media screen and (max-width: 650px){
+    .semi-foot{
+        display: none;
+    }
+}
